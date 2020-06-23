@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tonoliveira96/gostack11-desafio07/master/assets/description-desafio-07.png"/>
+  <img src="https://raw.githubusercontent.com/tonoliveira96/gostack11-desafio08/master/assets/desafio08.jpg"/>
 </div>
  <h1 align="center">Gostack11 Desafio08</h1>
 
