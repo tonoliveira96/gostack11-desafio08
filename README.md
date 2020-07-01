@@ -21,5 +21,5 @@
 
 # Front-end do desafio
 <div align="center">
-  <img src=""/>
+  <img src="https://raw.githubusercontent.com/tonoliveira96/gostack11-desafio08/master/assets/dashboard-desafio08.png"/>
 </div>
