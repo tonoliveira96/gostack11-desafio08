@@ -45,7 +45,6 @@ const CartProvider: React.FC = ({ children }) => {
 
   const addToCart = useCallback(
     async product => {
-      console.log(product);
       // TODO ADD A NEW ITEM TO THE CART
       const productsExists = products.find(p => p.id === product.id);
 
@@ -89,7 +88,7 @@ const CartProvider: React.FC = ({ children }) => {
       // TODO DECREMENTS A PRODUCT QUANTITY IN THE CART
       const newProducts = products.map(product =>
         product.id === id
-          ? { ...product, quantity: product.quantity + 1 }
+          ? { ...product, quantity: product.quantity - 1 }
           : product,
       );
       setProducts(newProducts);
